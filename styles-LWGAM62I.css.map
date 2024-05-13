@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["apps/demo-app/src/styles.scss"],
+  "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n*::before,\n*::after {\n    box-sizing: border-box;\n}\n* {\n    margin: 0;\n}\nbody {\n    line-height: 1.5;\n    -webkit-font-smoothing: antialiased;\n}\nimg,\npicture,\nvideo,\ncanvas,\nsvg {\n    display: block;\n    max-width: 100%;\n}\ninput,\nbutton,\ntextarea,\nselect {\n    font: inherit;\n}\np,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n    overflow-wrap: break-word;\n}\n\n#root,\n#__next {\n    isolation: isolate;\n}\n\nbody {\n    font-family: monospace;\n    display: flex;\n    flex-direction: column;\n    align-content: stretch;\n    justify-content: center;\n    align-items: center;\n}\n"],
+  "mappings": "AACA,CAAA,QAAA,CAAA,OAEI,WAAA,WAEJ,EALA,OAMI,EAEJ,KACI,YAAA,IACA,uBAAA,YAEJ,IAAA,QAAA,MAAA,OAAA,IAKI,QAAA,MACA,UAAA,KAEJ,MAAA,OAAA,SAAA,OAII,KAAA,QAEJ,EAAA,GAAA,GAAA,GAAA,GAAA,GAAA,GAOI,cAAA,WAGJ,CAAA,KAAA,CAAA,OAEI,UAAA,QAGJ,KACI,YAAA,UACA,QAAA,KACA,eAAA,OACA,cAAA,QACA,gBAAA,OACA,YAAA",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["video-recorder.component.ts"],
+  "sourcesContent": ["\n    :host {\n      position:relative;\n      display:block;\n      width: var(--videoplayer_width, 720px);\n      height: var(--videoplayer_height, 405px);\n      \n      video {\n        object-fit:cover;\n        top:0;\n        left:0;\n        width:100%;\n        height: 100%;\n        position:absolute;\n        border: 2px solid transparent;\n        &.recording {\n          border: 2px solid #ff0000;\n          animation: border-pulse 1s infinite alternate-reverse;\n}\n\t\n@keyframes border-pulse \n{\n  0%\n  {\n    border-color: #ff0000;\n  }\n  100% \n  {\n    border-color: #aaa0a0;\n  }\n}\n\n}\n    }\n  "],
+  "mappings": "AACI,MACE,SAAA,SACA,QAAA,MACA,MAAA,IAAA,mBAAA,EAAA,OACA,OAAA,IAAA,oBAAA,EAAA,OAEA,MAAA,MACE,WAAA,MACA,IAAA,EACA,KAAA,EACA,MAAA,KACA,OAAA,KACA,SAAA,SACA,OAAA,IAAA,MAAA,YACA,MAAA,KAAA,CAAA,UACE,OAAA,IAAA,MAAA,QACA,UAAA,aAAA,GAAA,SAAA,kBAGV,WAHU,aAKR,GAEE,aAAA,IAEF,GAEE,aAAA",
+  "names": []
+}

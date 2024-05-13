@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["app.component.ts"],
+  "sourcesContent": ["\n  \n  :host {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 20px;\n    video-recorder {\n      --videoplayer_width: 360px;\n      --videoplayer_height: 640px;\n\n    }\n  }"],
+  "mappings": "AAEE,MACE,QAAA,KACA,eAAA,OACA,YAAA,OACA,IAAA,KACA,MAAA,eACE,qBAAA,MACA,sBAAA",
+  "names": []
+}
